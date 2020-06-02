@@ -29,8 +29,12 @@ export default class App extends React.Component{
             <ul>
               {
                 this.state.name.map(el=><li>{el.name}</li>)
+                
               }
             </ul>
+            <h2>
+              Get call
+            </h2>
       </div>
     )
   }
